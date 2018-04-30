@@ -55,18 +55,17 @@ body {
 		display: none;
 		position: relative;
 	}
-}
-
-// Default
-.column(@i: 1) when (@i <= @grid-columns) {
-	.row .col-@{i} {
-		@width: (100/@grid-columns)*@i;
-		width: calc(~"@{width}%" - @grid-gutter-width);
-		display: block;
+	// Default
+	.column(@i: 1) when (@i <= @grid-columns) {
+		.col-@{i} {
+			@width: (100/@grid-columns)*@i;
+			width: calc(~"@{width}%" - @grid-gutter-width);
+			display: block;
+		}
+		.column(@i + 1);
 	}
-	.column(@i + 1);
+	.column();
 }
-.column();
 
 // Display default
 .d-block {
