@@ -1,0 +1,8 @@
+{
+  "name": "CSS Grid system",
+  "version": "1.0.0",
+  "main": "index.css",
+  "repository": "git@github.com:nurassyl/css-grid.git",
+  "author": "Nurasyl Aldan <nurassyl.aldan@gmail.com>",
+  "license": "MIT"
+}
