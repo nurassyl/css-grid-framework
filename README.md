@@ -15,8 +15,8 @@
 
 Compile to CSS
 ```
-npx lessc ./src/grid.less ./examples/basic/grid.css
-npx lessc ./examples/basic/style.less ./examples/basic/style.css
+npx lessc ./src/grid.less ./examples/basic/grid.css --autoprefix
+npx lessc ./examples/basic/style.less ./examples/basic/style.css --autoprefix
 ```
 
 ---
