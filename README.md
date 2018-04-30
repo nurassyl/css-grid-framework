@@ -1,4 +1,4 @@
-### Grid system for HTML & CSS
+### CSS Grid mini framework
 
 ---
 
@@ -9,7 +9,15 @@
 ---
 
 #### Templates
-- [Figma](https://www.figma.com/file/DSMDgDGMv9i48ZRtZ9ibt7NA/HTML-and-CSS-Grid-system)
+- [Figma](https://www.figma.com/file/DSMDgDGMv9i48ZRtZ9ibt7NA/CSS-Grid)
+
+---
+
+Compile to CSS
+```
+npx lessc ./src/grid.less ./examples/basic/grid.css
+npx lessc ./examples/basic/style.less ./examples/basic/style.css
+```
 
 ---
 
