@@ -25,8 +25,12 @@ npx lessc ./examples/basic/style.less ./examples/basic/style.css --autoprefix
 ```
 <div class="container">
 	<div class="row">
-		<div class="col-5">1</div>
-		<div class="col-7">2</div>
+		<div class="col col-2">
+			<div>1</div>
+		</div>
+		<div class="col col-2">
+			<div>2</div>
+		</div>
 	</div>
 </div>
 ```
