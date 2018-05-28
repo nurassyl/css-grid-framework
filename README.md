@@ -1,27 +1,18 @@
-### CSS Grid mini framework
+## css-grid-framework - The CSS framework
 
----
-
-#### Dependencies
-- [normalize.css](https://necolas.github.io/normalize.css)
-- [less](http://lesscss.org)
+#### Install
+```
+bower install css-grid-framework
+```
 
 ---
 
 #### Templates
-- [Figma](https://www.figma.com/file/DSMDgDGMv9i48ZRtZ9ibt7NA/CSS-Grid)
+- [Figma](https://www.figma.com/file/DSMDgDGMv9i48ZRtZ9ibt7NA/css-grid)
 
 ---
 
-Compile to CSS
-```
-npx lessc ./src/grid.less ./examples/basic/grid.css --autoprefix
-npx lessc ./examples/basic/style.less ./examples/basic/style.css --autoprefix
-```
-
----
-
-###### Examples
+#### Examples
 ```
 <div class="container">
 	<div class="row">

@@ -67,21 +67,8 @@ body {
 	.column();
 }
 
-// Display default
-.d-block {
-	display: block;
-}
-.d-inline-block {
-	display: inline-block;
-}
-.d-inline {
-	display: inline;
-}
-.d-none {
-	display: none;
-}
-
-@media (max-width: calc(@grid-breakpoint-sm - 1px)) {
+// Column
+@media (max-width: (@grid-breakpoint-sm - 1px)) {
 	// Extra small
 	.column(@i: 1) when (@i <= @grid-columns) {
 		.row .col-xs-@{i} {
@@ -141,7 +128,21 @@ body {
 	}
 	.column();
 }
-@media (max-width: calc(@grid-breakpoint-sm - 1px)) {
+
+// Display
+.d-block {
+	display: block;
+}
+.d-inline-block {
+	display: inline-block;
+}
+.d-inline {
+	display: inline;
+}
+.d-none {
+	display: none;
+}
+@media (max-width: (@grid-breakpoint-sm - 1px)) {
 	.d-xs-block {
 		display: block;
 	}
@@ -155,7 +156,7 @@ body {
 		display: none;
 	}
 }
-@media (min-width: @grid-breakpoint-sm) and (max-width: calc(@grid-breakpoint-md - 1px)) {
+@media (min-width: @grid-breakpoint-sm) and (max-width: (@grid-breakpoint-md - 1px)) {
 	.d-sm-block {
 		display: block;
 	}
@@ -169,7 +170,7 @@ body {
 		display: none;
 	}
 }
-@media (min-width: @grid-breakpoint-md) and (max-width: calc(@grid-breakpoint-lg - 1px)) {
+@media (min-width: @grid-breakpoint-md) and (max-width: (@grid-breakpoint-lg - 1px)) {
 	.d-md-block {
 		display: block;
 	}
@@ -183,7 +184,7 @@ body {
 		display: none;
 	}
 }
-@media (min-width: @grid-breakpoint-lg) and (max-width: calc(@grid-breakpoint-xl - 1px)) {
+@media (min-width: @grid-breakpoint-lg) and (max-width: (@grid-breakpoint-xl - 1px)) {
 	.d-lg-block {
 		display: block;
 	}

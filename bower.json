@@ -1,7 +1,6 @@
 {
   "name": "css-grid-framework",
   "description": "css-grid-framework - The CSS framework",
-  "private": false,
   "keywords": [
     "css-grid-framework",
     "css-grid",
@@ -22,19 +21,21 @@
     "sass",
     "postcss"
   ],
-  "version": "1.0.0",
   "main": "./dist/grid.css",
-  "repository": "git@github.com:nurassyl/css-grid-framework.git",
-  "author": "Nurasyl Aldan <nurassyl.aldan@gmail.com>",
+  "authors": [
+    "Nurasyl Aldan <nurassyl.aldan@gmail.com>"
+  ],
   "license": "MIT",
-  "scripts": {
-    "build": "npx lessc ./src/grid.less ./dist/grid.css"
-  },
-  "dependencies": {
-    "normalize.css": "^8.0.0"
-  },
-  "devDependencies": {
-    "bower": "^1.8.4",
-    "less": "^3.0.4"
-  }
+  "homepage": "https://github.com/nurassyl/css-grid-framework",
+  "ignore": [
+    "npm-error.log*",
+    "yarn-error.log*",
+    "npm-debug.log*",
+    "yarn-debug.log*",
+    "node_modules/",
+    "bower_component/s",
+    "vendor",
+    "package-lock.json",
+    "yarn.lock"
+  ]
 }
